@@ -1,0 +1,106 @@
+<?php require_once 'p.html'; ?>
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style2.css">
+
+<div class="con">
+<nav class="navbar navbar-expand-lg  " style="background-color:white">
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+  <ul class="navbar-nav">
+    <li class="nav-item ">
+      <a class="nav-link" href="index.html">Overview <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"></a>
+    </li>
+    <li class="nav-item dropdown active">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Food & Sport
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <a class="dropdown-item " href="food&cal.html">Food & calories 🍴</a>
+        <a class="dropdown-item " href="workout.html">Work out 🏃‍♂️</a>
+      </div>
+    </li>
+    <li class="nav-item">
+   <a class="nav-link " href="Askl.html">Ask others</a>
+ </li>
+ <!-- <li class="nav-item">
+<a class="nav-link  ml-auto" href="">Login</a>
+</li> -->
+  </ul>
+
+</div>
+</nav>
+  </head>
+  <body>
+
+    <section class="vh-100">
+      <div class="container-fluid h-custom">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-md-9 col-lg-6 col-xl-5 imgc">
+            <img src="images/logp.jpg"
+              class="img-fluid" alt="Sample image">
+          </div>
+          <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+
+          <form action="login.html" method="post">
+            <div class="form-outline mb-4" >
+
+              <input type="text" name="fname" class="form-control form-control-lg"
+                placeholder="First Name" required />
+              <label  for="fname">First Name</label>
+              </div>
+              <div class="form-outline mb-4" >
+
+    <input type="text" name="lname" class="form-control form-control-lg   "
+                   placeholder="Last Name" required/>
+                  <label  for="lname">Last Name</label>
+
+                </div>
+
+  <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" name="email" class="form-control form-control-lg
+          "    placeholder="Enter a valid email address" required/>
+                <label class="form-label" for="email">Email address</label>
+                <span ><?php if(!empty($eerror)) echo $eerror; ?></span>
+
+              </div>
+
+              <!-- Password input -->
+              <div class="form-outline mb-3">
+            <input type="password" name="password" class="form-control form-control-lg   <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?> "
+                  placeholder="Enter password" required/>
+                <label class="form-label" for="password">Password</label>
+              </div>
+<div class="text-center text-lg-start mt-4 pt-2">
+                <button type="submit" class="btn fl btn-lg"
+                  style="padding-left: 2.5rem; padding-right: 2.5rem;">Signup</button>
+                <p class="small fw-bold mt-2 pt-1 mb-0">Already have an account? <a href="login.html"
+                    class="link-danger">Login</a></p>
+              </div>
+
+            </form>
+            </div>
+          </div>
+        </div>
+
+
+    </section>
+    <script src="app.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+</html>
