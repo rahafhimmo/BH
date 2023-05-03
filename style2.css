@@ -1,0 +1,216 @@
+
+.navh{
+  position: absolute;
+}
+
+
+.top-left {
+
+  position: absolute;
+  top: 140px;
+  left: 110px;
+  color:black;
+
+}
+.ttitle{
+font-family: 'Cairo', sans-seri;
+}
+.homeimg{
+  height:600px;
+  width:100%;
+
+}
+p{
+  color:#3C4048;
+}
+#hh{
+  color:#3C4048;
+}
+.gain, .lose{
+  position: relative;
+ top:50px;
+text-align: center;
+  /* background-color: #EEF1FF; */
+  height:200px;
+}
+.nut_p,.pro,.carbo,.unhealthc,.fat,.vitamin,.minerals,.water,.wp,.tips{
+  width:1000px;
+  padding: 35px;
+/* text-align: center; */
+margin: auto;
+  font-size: 1.5rem;
+
+}
+.wp li{
+color: #3C4048;
+
+}
+.tips{
+  background-color: #E5D1FA;
+  border-radius: 10%;
+}
+a{
+  color: black;
+}
+
+.carbohimg,.pro-img,.vitt,.minn{
+  width:600px;
+  height:400px;
+display: block;
+margin-top:20px;
+margin-left: auto;
+margin-right: auto;
+/* float:left;
+margin-bottom: 20px; */
+
+}
+li{
+color: #5F8D4E;
+}
+table{
+
+  margin-top:25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+tr,td{
+  border: 1px solid ;
+padding-left:15px;
+color: #73777B;
+font-size: 1.2rem;
+}
+
+.card-no-border .card {
+    border: 0px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05)
+}
+
+
+
+.comment-widgets .comment-row:hover {
+    background: rgba(0, 0, 0, 0.02);
+    cursor: pointer;
+}
+
+.comment-widgets .comment-row {
+    border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+    padding: 15px;
+}
+.comment-text:hover{
+    visibility: hidden;
+}
+.comment-text:hover{
+    visibility: visible;
+}
+
+.label {
+    padding: 3px 10px;
+    line-height: 13px;
+    color: #ffffff;
+    font-weight: 400;
+    border-radius: 4px;
+    font-size: 75%;
+}
+
+.round img {
+    border-radius: 100%;
+}
+
+.label-info {
+    background-color: #1976d2;
+}
+
+.label-success {
+    background-color: green;
+}
+
+.label-danger {
+    background-color: #ef5350;
+}
+
+.action-icons a {
+    padding-left: 7px;
+    vertical-align: middle;
+    color: #99abb4;
+}
+
+.action-icons a:hover {
+    color: #1976d2;
+}
+
+.mt-100 {
+    margin-top: 100px
+}
+
+.mb-100 {
+    margin-bottom: 100px
+}
+
+#comm{
+  display: none;
+}
+#commm{
+  display: none;
+}
+#commmm{
+  display: none;
+}
+.vh-100{
+  margin-top:100px;
+}
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+.fl{
+  background-color: #E8C4C4;
+}
+.ppimg{
+  width: 50px;
+
+ border-radius: 100%;
+}
+.card-body{
+margin-left: 40%;
+margin-right: 30%;
+margin-bottom: 0px;
+
+}
+.card-title{
+  margin-top: 20px;
+
+
+}
+
+
+#bp{
+  margin-left: 10%;margin-top:3%;
+}
+/* .lout{
+  position: fixed;
+left: 94%;
+
+} */
+#bpost{
+  display: none;
+  margin-left: 10%;
+  margin-top:10px;
+}
+#back{
+  display:none;
+margin-left: 2%;
+margin-top:1.2%;
+}
